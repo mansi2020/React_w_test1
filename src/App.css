@@ -1,29 +1,28 @@
 /* App.css */
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* App container style */
-.App_container{
-  width:100%;
- 
+.App_container {
+  width: 100%;
 }
-.App_container>h1{
-  padding:20px;
+.App_container > h1 {
+  padding: 20px;
   background-color: #2196f3;
-  color:white;
+  color: white;
   margin-bottom: 2rem;
   text-align: center;
 }
-.App_container_sub>img{
-  width:500px;
+.App_container_sub > img {
+  width: 500px;
   object-fit: contain;
 }
-.App_container_sub{
-  display:flex;
-  padding:20px;
-  gap:2rem;
+.App_container_sub {
+  display: flex;
+  padding: 20px;
+  gap: 2rem;
 }
 
 /* mani container styles */
@@ -58,8 +57,8 @@
   text-align: center;
   font-size: 16px;
 }
-p{
-  margin:0;
+p {
+  margin: 0;
   margin-top: 1rem;
 }
 .copy-button {
@@ -83,21 +82,21 @@ p{
 .character-options {
   flex: 1;
 }
-.length-selection{
-  display:flex;
+.length-selection {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.length-selection>p{
+.length-selection > p {
   font-size: 1.3rem;
   font-weight: 500;
 }
-p{
-  margin:0;
+p {
+  margin: 0;
 }
 
-.length-selection>input{
-  width:10%;
+.length-selection > input {
+  width: 10%;
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -105,7 +104,7 @@ p{
   outline: none;
   margin-left: 1rem;
 }
-input:focus{
+input:focus {
   outline: none;
 }
 
@@ -130,7 +129,7 @@ input:focus{
   color: white;
 }
 
-button:hover{
+button:hover {
   box-shadow: 2px 2px 4px rgb(184, 184, 184);
   transform: translateY(-2px);
 }

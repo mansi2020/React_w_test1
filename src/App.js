@@ -8,7 +8,7 @@ function App() {
     <div className="App_container">
       <h1>Welcome to Password Generator!</h1>
       <div className="App_container_sub">
-      <img src={Image} alt="" />
+        <img src={Image} alt="" />
         <Main></Main>
       </div>
     </div>

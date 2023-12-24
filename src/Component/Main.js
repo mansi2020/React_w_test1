@@ -146,14 +146,14 @@ const Main = () => {
 
       {/* password length and take length form input */}
       <div className="password-options">
-      <div className="length-selection">
-        <p>Select Password length(**8-50 characters**) : </p>
-        <input
-          type="number"
-          onChange={userInputLengthFn}
-          value={userInputLength}
-        />
-      </div>
+        <div className="length-selection">
+          <p>Select Password length(**8-50 characters**) : </p>
+          <input
+            type="number"
+            onChange={userInputLengthFn}
+            value={userInputLength}
+          />
+        </div>
       </div>
 
       {/* chekbox for charater */}
